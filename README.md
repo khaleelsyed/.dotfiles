@@ -1,6 +1,6 @@
 # .dotfiles
 
-A personal store of all [dotfiles](https://dotfiles.github.io/) to help transfer workflow across different machines.
+A personal store of all [dotfiles](https://dotfiles.github.io/) to help transfer workflow across different machines. This repository uses a package [`stow`](https://www.gnu.org/software/stow/) - a symlink manager to create, manage and remove symlinks easily.
 
 ## Usage
 
