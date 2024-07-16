@@ -26,3 +26,12 @@ if which code >/dev/null; then
 else
   echo "VSCode command does not exist, not installing extensions"
 fi
+
+# Installs fnm (Fast Node Manager)
+curl -fsSL https://fnm.vercel.app/install | bash
+
+# Download and install Node.js (latest LTS version)
+fnm use --lts
+
+# Install pnpm
+curl -fsSL https://get.pnpm.io/install.sh | sh -
