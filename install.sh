@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Majority of this script has been taken from: https://github.com/okwilkins/.dotfiles
-
 sudo apt update
 
 # Install stow

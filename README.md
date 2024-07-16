@@ -16,3 +16,9 @@ _**NOTE**: This requires sudo access (installs `stow`)_
 cd dotfiles
 bash install.sh
 ```
+
+-----
+
+## Attribution
+
+Majority of this script has been taken from: [okwilkins/.dotfiles](https://github.com/okwilkins/.dotfiles)
