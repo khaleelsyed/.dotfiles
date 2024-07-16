@@ -1,54 +1,47 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Gruvbox Material Dark",
-
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
-    "editor.indentSize": "tabSize",
-
-    "files.eol": "\n",
-
-    "telemetry.telemetryLevel": "off",
-    "terminal.integrated.defaultProfile.linux": "bash",
-
-    "git.autofetch": true,
-    "git.confirmSync": false,
-
-    "npm.packageManager": "pnpm",
-    "gitlens.telemetry.enabled": false,
-    "postman.telemetry.enabled": false,
-    "prisma.showPrismaDataPlatformNotification": false,
-
-    // Language specific settings
-
-    "autoDocstring.docstringFormat": "google-notypes",
-    "autoDocstring.guessTypes": false,
-    "autoDocstring.startOnNewLine": true,
-    "python.testing.pytestEnabled": true,
-    "mdb.sendTelemetry": false,
-
-    "[go]": {
-      "editor.defaultFormatter": "golang.go"
-    },
-    "go.generateTestsFlags": [
-        "-v"
-    ],
-    "go.inlayHints.constantValues": true,
-    "go.inlayHints.parameterNames": true,
-    "go.testExplorer.showDynamicSubtestsInEditor": true,
-    "go.toolsManagement.autoUpdate": true,
-    "go.inlayHints.compositeLiteralFields": true,
-
-    "eslint.enable": false,
-    "js/ts.implicitProjectConfig.checkJs": true,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    }
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.indentSize": "tabSize",
+  "files.eol": "\n",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "npm.packageManager": "pnpm",
+  "gitlens.telemetry.enabled": false,
+  "postman.telemetry.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  // Python specific settings
+  "autoDocstring.docstringFormat": "google-notypes",
+  "autoDocstring.guessTypes": false,
+  "autoDocstring.startOnNewLine": true,
+  "python.testing.pytestEnabled": true,
+  "mdb.sendTelemetry": false,
+  // Go specific settings
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.generateTestsFlags": [
+    "-v"
+  ],
+  "go.inlayHints.constantValues": true,
+  "go.inlayHints.parameterNames": true,
+  "go.testExplorer.showDynamicSubtestsInEditor": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  // JavaScript/JSON specific settings
+  "eslint.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
+}
