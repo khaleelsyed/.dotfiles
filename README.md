@@ -13,7 +13,7 @@ git clone https://github.com/khaleelsyed/.dotfiles.git
 2. Install the dot files.
 
 ```bash
-cd dotfiles
+cd .dotfiles
 
 # NOTE: sudo access is needed to install stow
 bash install.sh
