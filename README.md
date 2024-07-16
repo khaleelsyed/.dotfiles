@@ -23,4 +23,4 @@ bash install.sh
 
 ## Attribution
 
-Majority of this script has been taken from: [okwilkins/.dotfiles](https://github.com/okwilkins/.dotfiles)
+Majority of the content from this repo has been taken from: [okwilkins/.dotfiles](https://github.com/okwilkins/.dotfiles)
