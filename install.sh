@@ -13,6 +13,8 @@ for dir in */; do
     stow $dir -t ~
 done
 
+rm ~/.vscode_extensions.txt
+
 # If running WSL, VSCode needs to be in a seperate location
 if grep -qi Microsoft /proc/version && [[ -f $HOME/.config/Code/User/settings.json ]]; then
   echo "Running WSL, symlinking VSCode settings"
@@ -26,8 +28,6 @@ if which code >/dev/null; then
 else
   echo "VSCode command does not exist, not installing extensions"
 fi
-
-rm ~/.vscode_extensions.txt
 
 # Installs fnm (Fast Node Manager)
 if ! curl -fsSL https://fnm.vercel.app/install | bash; then
