@@ -10,7 +10,7 @@ A personal store of all [dotfiles](https://dotfiles.github.io/) to help transfer
 git clone https://github.com/khaleelsyed/.dotfiles.git
 ```
 
-2. Install the dot files and other packages
+2. Install the dot files and VSCode extensions
 
 ```bash
 cd .dotfiles
@@ -18,8 +18,6 @@ cd .dotfiles
 # NOTE: sudo access is needed to install stow
 bash install.sh
 ```
-
-3. Exit and restart new shell to ensure `pnpm` is usable
 
 -----
 
