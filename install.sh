@@ -34,7 +34,6 @@ if ! curl -fsSL https://fnm.vercel.app/install | bash; then
   exit 1;
 fi
 
-echo "Running env var stuff" # DEV
 FNM_PATH="/home/khaleel/.local/share/fnm"
 export PATH="$FNM_PATH:$PATH"
 eval "`fnm env`"
