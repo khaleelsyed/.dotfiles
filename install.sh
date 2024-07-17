@@ -30,9 +30,7 @@ fi
 rm ~/.vscode_extensions.txt
 
 # Installs fnm (Fast Node Manager)
-if curl -fsSL https://fnm.vercel.app/install | bash; then
-  source ~/.bashrc
-else
+if ! curl -fsSL https://fnm.vercel.app/install | bash; then
   exit 1;
 fi
 
