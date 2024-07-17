@@ -3,7 +3,7 @@
 sudo apt update
 
 # Install stow
-sudo apt install stow -y
+sudo apt install curl stow unzip -y
 
 cd configs
 
@@ -22,16 +22,20 @@ fi
 # If running VSCode install extensions
 if which code >/dev/null; then
   echo "Installing VSCode extensions"
-  cat vscode/extensions.txt | xargs -L 1 code --install-extension
+  cat vscode/.vscode_extensions.txt | xargs -L 1 code --install-extension
 else
   echo "VSCode command does not exist, not installing extensions"
 fi
 
+rm ~/.vscode_extensions.txt
+
 # Installs fnm (Fast Node Manager)
-curl -fsSL https://fnm.vercel.app/install | bash
+if curl -fsSL https://fnm.vercel.app/install | bash; then
+  source ~/.bashrc
+else
+  exit 1;
+fi
 
-# Download and install Node.js (latest LTS version)
-fnm use --lts
+bash node_pnpm_install.sh
 
-# Install pnpm
-curl -fsSL https://get.pnpm.io/install.sh | sh -
+exit 0;
