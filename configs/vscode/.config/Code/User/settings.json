@@ -1,7 +1,7 @@
 {
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "editor.acceptSuggestionOnEnter": "off",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
@@ -16,6 +16,7 @@
   "npm.packageManager": "pnpm",
   "gitlens.telemetry.enabled": false,
   "postman.telemetry.enabled": false,
+  "postman.account.region": "EU",
   "prisma.showPrismaDataPlatformNotification": false,
   // Python specific settings
   "autoDocstring.docstringFormat": "google-notypes",
