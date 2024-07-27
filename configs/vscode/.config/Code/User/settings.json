@@ -1,8 +1,9 @@
 {
+  "cSpell.language": "en-GB",
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Tokyo Night Storm",
-  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnEnter": "smart",
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "relative",
@@ -31,6 +32,8 @@
   "go.generateTestsFlags": [
     "-v"
   ],
+  "go.survey.prompt": false,
+  "go.trace.server": "messages",
   "go.inlayHints.constantValues": true,
   "go.inlayHints.parameterNames": true,
   "go.testExplorer.showDynamicSubtestsInEditor": true,
