@@ -7,8 +7,6 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.remote-server
 ms-vscode.remote-explorer
-postman.postman-for-vscode
-prisma.prisma
 enkia.tokyo-night
 streetsidesoftware.code-spell-checker
 yzhang.markdown-all-in-one
